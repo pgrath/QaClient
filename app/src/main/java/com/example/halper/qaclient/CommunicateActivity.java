@@ -86,7 +86,8 @@ public class CommunicateActivity extends AppCompatActivity {
 
     public void sendQuestion(View view)
     {
-        EditText et;
+        //TODO needs to be assigned?
+        EditText et = (EditText) findViewById(R.id.edit_question);
         String user_question;
         String answer;
         boolean finished = false;
@@ -101,26 +102,28 @@ public class CommunicateActivity extends AppCompatActivity {
         else
         {// get the question to send to the server (place it in "user_question")
 
-            YYY
+            user_question = et.getText().toString();
+
 
             // if string is "quit", we're finished (let the
             // server know by sending it "quit".).  Otherwise, send the question
             // and get a response
 
-            if ( YYY )
+            if ( user_question.equals("quit") )
             {
-                YYY (two statements here)
+                out.print(user_question);
+
             }
 
             else
             {
                 // send question to server
 
-                YYY
+                out.print(user_question);
 
                 // read response and display it
 
-                 YYY
+                 answer = in.nextLine();
 
                 tv.setText("Answer: " + answer);
 
