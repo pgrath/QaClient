@@ -111,7 +111,8 @@ public class CommunicateActivity extends AppCompatActivity {
 
             if ( user_question.equals("quit") )
             {
-                out.print(user_question);
+                out.println(user_question);
+                finished = true;
 
             }
 
@@ -119,7 +120,7 @@ public class CommunicateActivity extends AppCompatActivity {
             {
                 // send question to server
 
-                out.print(user_question);
+                out.println(user_question);
 
                 // read response and display it
 

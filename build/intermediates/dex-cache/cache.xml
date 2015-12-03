@@ -2,20 +2,6 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Pat\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="C:\Users\Pat\AndroidStudioProjects\QaClient\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-5784e0090dfa8597785ab8fc640bad733949797c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Pat\AndroidStudioProjects\QaClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="C:\Users\Pat\AndroidStudioProjects\QaClient\app\build\intermediates\pre-dexed\debug\classes-8edaf054605d31417b1add467009381b5041ee5a.jar" />
-    </item>
-    <item
         jar="C:\Users\Pat\AndroidStudioProjects\QaClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -23,11 +9,25 @@
         <dex dex="C:\Users\Pat\AndroidStudioProjects\QaClient\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-f849d87f9f2a496767531e76adf2c23f214a4e32.jar" />
     </item>
     <item
+        jar="C:\Users\Pat\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Pat\AndroidStudioProjects\QaClient\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-5784e0090dfa8597785ab8fc640bad733949797c.jar" />
+    </item>
+    <item
         jar="C:\Users\Pat\AndroidStudioProjects\QaClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
         <dex dex="C:\Users\Pat\AndroidStudioProjects\QaClient\app\build\intermediates\pre-dexed\debug\classes-65cafa879d4d614b88dd5a1393d1be76af8bb9f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pat\AndroidStudioProjects\QaClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Pat\AndroidStudioProjects\QaClient\app\build\intermediates\pre-dexed\debug\classes-8edaf054605d31417b1add467009381b5041ee5a.jar" />
     </item>
 
 </items>
